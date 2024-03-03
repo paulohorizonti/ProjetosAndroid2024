@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="CONVERSOR DE MOEDAS"
+        android:textSize="30sp"
+        android:background="#08044504"
+        android:padding="20dp"
+
+        ></TextView>
+
+    <EditText
+        android:id="@+id/edtEuros"
+        android:layout_width="375dp"
+        android:layout_height="57dp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:inputType="number|numberDecimal|numberSigned"
+        android:hint="@string/insira_um_valor_em_reais"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/btnDolar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DÓLAR"
+        />
+
+    <Button
+        android:id="@+id/btnEuro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+
+        android:text="EURO"
+        />
+    <Button
+        android:id="@+id/btnPesor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PESO"
+        />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/txtResultados"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:text="DEV. PAULO"
+        android:gravity="center"
+      />
+
+</LinearLayout>

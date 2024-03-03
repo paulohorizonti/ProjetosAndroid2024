@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TempConversorApp</string>
+    <string name="converter">CONVERTER</string>
+    <string name="temperatura">TEMPERATURA</string>
+    <string name="limpar">LIMPAR</string>
+    <string name="digite_temperatura">Digite a temperatura em ºC</string>
+    <string name="conveter_para">Conveter para:</string>
+    <string name="fahreneit">FAHRENEIT</string>
+    <string name="kelvin">KELVIN</string>
+    <string name="farheneit">FARHENEIT</string>
+    <string name="kelvinS">KELVIN</string>
+</resources>

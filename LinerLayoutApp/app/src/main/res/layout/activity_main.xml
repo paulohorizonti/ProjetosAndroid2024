@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#ff0"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="ISTO É UMA TEXTVIEW"
+        android:textSize="30sp" />
+
+
+    <Button
+        android:id="@+id/btnClicar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#2A0303"
+
+        android:foregroundGravity="top|center_vertical"
+        android:shadowColor="#7F1616"
+        android:text="CLICAR"
+        android:textColorHighlight="#620C0C"
+        android:textColorLink="#531414" />
+
+    <Button
+        android:id="@+id/btnClicar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_launcher_background"
+        android:text="CLICAR" />
+
+    <Button
+        android:id="@+id/btnClicar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#250303"
+        android:text="CLICAR" />
+
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ConversosModedasV2App</string>
+    <string name="converter">Converter</string>
+    <string name="insira_um_valor_em_reais">Insira um valor em REAIS</string>
+</resources>

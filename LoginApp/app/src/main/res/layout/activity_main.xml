@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BEM-VINDO"
+        android:fontFamily="casual"
+        android:textColor="#00f"
+        android:textSize="50sp"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Preencha o seu user e senha"
+        android:textSize="20sp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usuário: "
+            />
+        <EditText
+            android:id="@+id/edtUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Seu usuário"
+            android:minWidth="200dp"
+            android:minHeight="48dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Senha: "
+            />
+        <EditText
+            android:id="@+id/edtSenha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="200dp"
+            android:inputType="numberPassword"
+            android:hint="Digite a Senha"
+            android:minHeight="48dp"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:text="ENTRAR"
+        android:layout_marginTop="50dp"/>
+    <Button
+        android:id="@+id/btnFechar"
+        android:layout_width="310dp"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:text="Sair"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>

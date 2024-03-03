@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PrimeiraApp</string>
+    <string name="ol_mundo">Olá Mundo</string>
+    <string name="btn_nome">CLIQUE AQUI</string>
+</resources>
